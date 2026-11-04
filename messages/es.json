@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "title": "Joel Nicolás Sartori — Senior Software Engineer",
+    "description": "Senior Software Engineer, Tech Lead y AI Engineer con más de 8 años construyendo productos mobile y web de alto tráfico para fintech."
+  },
+  "common": {
+    "present": "Actualidad",
+    "period": "{start} — {end}",
+    "expected": "Finaliza {date}",
+    "sectionIndex": "({index})",
+    "newTab": "(se abre en una pestaña nueva)",
+    "yearRange": "{start} — {end}"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "testimonials": "Recomendaciones",
+    "experience": "Experiencia",
+    "lab": "Laboratorio",
+    "contact": "Contacto",
+    "primary": "Navegación principal",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "skipToContent": "Saltar al contenido",
+    "language": "Cambiar idioma",
+    "locales": {
+      "es": "ES",
+      "en": "EN"
+    },
+    "localTime": "Posadas, AR",
+    "talk": "Hablemos",
+    "home": "Ir al inicio"
+  },
+  "hero": {
+    "initials": "JNS",
+    "firstName": "Joel Nicolás",
+    "lastName": "Sartori",
+    "srTitle": "Joel Nicolás Sartori — Senior Software Engineer, Tech Lead & AI Engineer",
+    "rows": [
+      "Senior Software Engineer",
+      "Tech Lead",
+      "AI Engineer"
+    ],
+    "location": "Posadas, Argentina",
+    "remote": "Remoto",
+    "availability": "Disponible para trabajar",
+    "portraitAlt": "Retrato de Joel Nicolás Sartori"
+  },
+  "about": {
+    "label": "Sobre mí",
+    "statement": "Convierto problemas complejos en productos que usan millones de personas. Combino arquitectura, calidad y liderazgo con algo poco común en ingeniería: una formación en Psicología.",
+    "paragraphs": [
+      "Hoy trabajo en itti, en el equipo Mobile Core, construyendo los productos financieros y comerciales del grupo. Como AI Champion también llevo la IA al día a día de los equipos de desarrollo, con agentes y sin resignar calidad.",
+      "Me obsesiona que los equipos entreguen lo que prometen. Por eso trabajo con especificaciones primero, tests como parte del diseño y flujos de agentes estandarizados, para que la velocidad que suma la IA no se pague con deuda técnica.",
+      "Esa formación me permite liderar con una mirada centrada en las personas: entrevistas técnicas, mentoría y acompañar a otros desarrolladores en su crecimiento, algo que también hice como docente Full Stack."
+    ],
+    "facts": {
+      "focus": {
+        "label": "Foco",
+        "value": "Mobile · Frontend · IA"
+      },
+      "industry": {
+        "label": "Industria",
+        "value": "Fintech"
+      },
+      "languages": {
+        "label": "Idiomas",
+        "value": "Español · Inglés"
+      }
+    }
+  },
+  "stats": {
+    "label": "En números",
+    "items": {
+      "years": "Años construyendo productos digitales",
+      "users": "Millones de usuarios en ueno bank",
+      "coverage": "Cobertura de tests, partiendo de 0%",
+      "adoption": "Adopción de IA en el grupo empresarial",
+      "estimates": "Desvío en estimaciones que eliminamos con agentes, SDD y TDD",
+      "aiUsers": "Usuarios activos de herramientas de IA",
+      "concurrent": "Usuarios concurrentes en el pico del streaming del Mundial 2026"
+    }
+  },
+  "work": {
+    "items": {
+      "ueno": {
+        "name": "ueno bank",
+        "category": "Banca digital",
+        "description": "App principal del ecosistema del banco digital de Paraguay: arquitectura resiliente y de alta performance para concurrencia masiva y más de 3 millones de usuarios. Las micro-apps y campañas comerciales integradas aumentaron la conversión y el cross-selling en el ecosistema del grupo."
+      },
+      "umarket": {
+        "name": "umarket",
+        "category": "Marketplace",
+        "description": "E-commerce del ecosistema bancario desarrollado desde cero, con alto flujo de usuarios y arquitectura de micro-frontends."
+      },
+      "uttoki": {
+        "name": "Uttoki",
+        "category": "Criptomonedas",
+        "description": "Desarrollo, refactorización y definición arquitectónica: micro-apps desacopladas con runners aislados y compilación independiente, más el ciclo completo de publicación."
+      },
+      "tuiu": {
+        "name": "Tuiu",
+        "category": "Remesas",
+        "description": "Coordinación del equipo, refactorización profunda y rediseño, integración de proveedores externos y una capa de observabilidad y telemetría en tiempo real con trazabilidad de punta a punta."
+      },
+      "fifa": {
+        "name": "Mundial FIFA 2026",
+        "category": "Streaming deportivo",
+        "description": "Mantenimiento, optimización de rendimiento y publicación de la app oficial de streaming de los partidos del Mundial FIFA 2026 en Paraguay, con picos de más de 300.000 usuarios concurrentes."
+      },
+      "ppi": {
+        "name": "PPI",
+        "category": "Trading",
+        "description": "Módulos de seguridad, 2FA y perfil, operatoria de licitaciones y optimización de listados en la web de trading y la app de Portfolio Personal Inversiones."
+      }
+    },
+    "links": {
+      "label": "Disponible en",
+      "web": "Web",
+      "appStore": "App Store",
+      "googlePlay": "Google Play"
+    }
+  },
+  "experience": {
+    "label": "Experiencia",
+    "title": "Experiencia y productos",
+    "toggle": "Mostrar u ocultar detalle de {company}",
+    "highlights": "Logros",
+    "stack": "Tecnologías",
+    "items": {
+      "itti": {
+        "company": "itti",
+        "location": "Paraguay · Remoto",
+        "summary": "Productos de alto tráfico para el ecosistema financiero y comercial de Paraguay. Equipo Mobile Core; coordino equipos de 2 a 5 personas según el proyecto.",
+        "roles": {
+          "aiEngineer": "AI Engineer · Senior Software Engineer",
+          "senior": "Senior Software Engineer"
+        },
+        "highlights": [
+          "Definí arquitecturas de micro-apps desacopladas y micro-frontends, con BFFs para la orquestación de datos.",
+          "Instalé estándares de calidad y seguridad con SonarQube y Checkmarx, y una cultura de testing en todos los proyectos.",
+          "Como AI Champion estandaricé flujos con agentes, Spec-Driven Development y TDD, y los equipos pasaron a cumplir sus estimaciones."
+        ]
+      },
+      "ppi": {
+        "company": "PPI · Portfolio Personal Inversiones",
+        "location": "Argentina · Remoto",
+        "summary": "Broker de inversiones. Plataforma web de trading y app móvil.",
+        "roles": {
+          "senior": "Senior Software Engineer"
+        },
+        "highlights": []
+      },
+      "asap": {
+        "company": "Asap Consulting",
+        "location": "Remoto",
+        "summary": "Software factory con proyectos web y mobile para clientes nacionales e internacionales.",
+        "roles": {
+          "lead": "Tech Lead Frontend · Sr. Frontend & Mobile Developer",
+          "engineer": "Software Engineer · Frontend Developer"
+        },
+        "highlights": [
+          "Lideré equipos de Frontend de 2 a 5 personas en una plataforma Angular de contratos virtuales con TDD, roles y pasarelas de pago.",
+          "Desarrollé una app React Native y web de tickets virtuales con i18n, push y biometría, publicada en App Store y Google Play.",
+          "Publiqué apps Flutter con APIs Node.js sobre AWS e implementé CI/CD, Docker y AWS Lambda.",
+          "Dicté talleres internos de arquitectura limpia en frontend, TDD e integración continua."
+        ]
+      },
+      "xside": {
+        "company": "Xside Solutions",
+        "location": "Remoto",
+        "summary": "Producto internacional mobile y web.",
+        "roles": {
+          "ssr": "SSr Frontend & Mobile Developer"
+        },
+        "highlights": [
+          "Mantuve y optimicé una app React Native internacional con push y módulos nativos en Swift y Java.",
+          "Implementé tests E2E con Cypress e integración continua."
+        ]
+      },
+      "faniot": {
+        "company": "FanIOT Argentina",
+        "location": "Posadas, Misiones · Presencial",
+        "summary": "Soluciones IoT para movilidad e industria.",
+        "roles": {
+          "fullstack": "Full-stack & Mobile Developer"
+        },
+        "highlights": [
+          "Alquiler de autos con seguimiento en tiempo real: Flutter, BLoC, BLE y MercadoPago.",
+          "Gestión de stock y fabricación con React, React Native y APIs Node.js sobre MongoDB."
+        ]
+      },
+      "estandarq": {
+        "company": "Estandarq",
+        "location": "Posadas, Misiones · Freelance",
+        "summary": "Experiencias digitales para arquitectura.",
+        "roles": {
+          "fullstack": "Full-stack Developer"
+        },
+        "highlights": [
+          "Desarrollé tours y experiencias virtuales 3D y sitios web con React, Node.js y WordPress."
+        ]
+      }
+    },
+    "description": "Las empresas en las que trabajé, mis roles y los productos que construí en cada una.",
+    "products": "Productos"
+  },
+  "skills": {
+    "label": "Capacidades",
+    "title": "Stack y formación",
+    "groups": {
+      "mobile": "Mobile",
+      "frontend": "Frontend",
+      "ai": "IA aplicada",
+      "backend": "Backend y Cloud",
+      "architecture": "Arquitectura y calidad",
+      "leadership": "Liderazgo"
+    },
+    "extra": {
+      "mobile": [
+        "Módulos nativos",
+        "Publicación en stores"
+      ],
+      "frontend": [
+        "JavaScript"
+      ],
+      "ai": [
+        "Agentes de IA",
+        "Arquitecturas agénticas",
+        "Adopción de IA en equipos"
+      ],
+      "backend": [
+        "API REST",
+        "CI/CD"
+      ],
+      "architecture": [],
+      "leadership": [
+        "Liderazgo técnico",
+        "Gestión de equipos",
+        "Mentoría",
+        "Entrevistas técnicas"
+      ]
+    }
+  },
+  "education": {
+    "label": "Formación",
+    "title": "Educación y docencia",
+    "educationLabel": "Educación",
+    "teachingLabel": "Docencia",
+    "certificationsLabel": "Certificaciones",
+    "items": {
+      "psychology": {
+        "title": "Licenciatura en Psicología",
+        "institution": "Universidad de la Cuenca del Plata"
+      },
+      "systems": {
+        "title": "Tecnicatura en Análisis de Sistemas",
+        "institution": "ISIV — Instituto Superior de Informática Virasoro"
+      },
+      "practice": {
+        "title": "Prácticas en Psicología educacional",
+        "institution": "Escuela N°813 \"Ribera del Paraná\" — talleres de ESI y formación docente"
+      }
+    },
+    "teaching": {
+      "gcba": {
+        "title": "Full Stack Teacher (MERN)",
+        "institution": "Gobierno de la Ciudad de Buenos Aires",
+        "description": "Formación de desarrolladores full stack (MERN) en el programa público de la Ciudad."
+      },
+      "workshops": {
+        "title": "Talleres internos",
+        "institution": "Asap Consulting",
+        "description": "Arquitectura limpia en frontend, TDD e integración continua."
+      }
+    },
+    "certifications": {
+      "utnFullstack": {
+        "title": "Diplomatura en Desarrollo Web Fullstack con React y Node.js",
+        "institution": "UTN FRBA — Centro de e-Learning"
+      },
+      "uxui": {
+        "title": "Certificación en Diseño UX/UI",
+        "institution": "EducacionIT"
+      },
+      "utnWeb": {
+        "title": "Diplomatura en Desarrollo Web",
+        "institution": "UTN Facultad Regional Resistencia"
+      },
+      "english": {
+        "title": "Inglés para el Desarrollo de Software",
+        "institution": "Polo TIC Misiones"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "¿Construimos",
+    "titleAccent": "algo grande?",
+    "description": "Busco nuevos desafíos como Senior Software Engineer, Tech Lead o AI Engineer en remoto. Si tu equipo construye productos de alto impacto, hablemos.",
+    "copy": "Copiar email",
+    "copied": "Email copiado",
+    "socials": "Encontrame en",
+    "cv": "Descargar CV",
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "Email"
+    }
+  },
+  "footer": {
+    "rights": "© {year} Joel Nicolás Sartori",
+    "built": "Diseñado y desarrollado con Next.js, Motion y next-intl.",
+    "backToTop": "Volver arriba"
+  },
+  "testimonials": {
+    "label": "Recomendaciones",
+    "title": "Lo que dicen quienes trabajaron conmigo",
+    "previous": "Recomendación anterior",
+    "next": "Siguiente recomendación",
+    "counter": "{current} / {total}",
+    "source": "Ver en LinkedIn",
+    "translated": "",
+    "items": {
+      "bertalot": {
+        "name": "Leandro Bertalot",
+        "role": "Engineering leadership · Fintech & platforms · Ex Mercado Libre, Tiendanube y Ualá",
+        "relation": "Supervisó directamente a Joel",
+        "quote": "Es de esas personas que levantan el nivel del equipo solo con estar.",
+        "text": "Tuve la suerte de trabajar con Nico y, sin vueltas: es de esas personas que levantan el nivel del equipo solo con estar.\nEn lo profesional entrega con una calidad que se nota en cada detalle. Entiende el problema, propone, ejecuta y cierra. Suma herramientas de IA con criterio —no por moda—, y eso se traduce en más velocidad y mejor resultado sin perder oficio.\nPero lo que más destaca es la persona: generoso, claro, de buena onda y de los que te bancan cuando hay que empujar. Trabajar con él es fácil y da ganas de seguir.\nCualquier equipo que lo sume gana de entrada. Lo recomiendo sin dudar."
+      },
+      "gonzalez": {
+        "name": "Deivid Steven Gonzalez",
+        "role": "Software Developer",
+        "relation": "Compañero en el equipo Mobile Core",
+        "quote": "Sabe guiar sin imponer y comparte lo que sabe con generosidad.",
+        "text": "Tuve la oportunidad de trabajar con Joel en el equipo de Mobile Core y puedo decir sin dudarlo que es de esas personas que hacen mejor a todo el equipo.\nEn lo técnico es sólido y no le tiene miedo a lo difícil: en proyectos como uMarket y Tuiu siempre buscaba los retos más complejos. Nos tocó refactorizar una base de código en muy mal estado, y con él fue fácil sacarla adelante cumpliendo altos estándares de calidad y seguridad (SonarQube, Checkmarx y pruebas unitarias).\nPero lo que más lo diferencia es su liderazgo natural y su disposición a ayudar. Sabe guiar sin imponer y comparte lo que sabe con generosidad. Era común verlo con el líder técnico de backend planeando, apoyando y probando nuevos desarrollos, o dándole una mano a cualquier rol del equipo que lo necesitara.\nTrabajar con él es fácil y motivante. Cualquier equipo que lo tenga va a ganar no solo un gran profesional, sino un gran compañero. Lo recomiendo totalmente."
+      },
+      "martinez": {
+        "name": "Nacho Martínez",
+        "role": "Mobile Tech Lead · Content Creator · Director de El Container",
+        "relation": "Supervisó directamente a Joel",
+        "quote": "Tiene esa combinación tan valiosa de profundidad técnica y visión general.",
+        "text": "Tuve el gusto de tener a Nicolás en mi equipo y es uno de esos profesionales que destacan tanto por su capacidad técnica como por su calidad humana.\nNicolás tiene una habilidad enorme para comunicarse, empatizar y conectar con las personas. Es alguien que genera confianza de manera natural, que sabe escuchar y que tiene una gran capacidad para convertirse en referente de un equipo. Su liderazgo no pasa solamente por sus conocimientos, sino también por cómo acompaña a los demás, genera un buen ambiente de trabajo y ayuda a que todo el equipo crezca.\nDesde lo técnico, tiene un nivel de seniority muy sólido, conocimientos amplios y una curiosidad constante por seguir aprendiendo. Siempre busca entender un poco más, anticiparse a los desafíos y encontrar soluciones prácticas. Tiene esa combinación tan valiosa de profundidad técnica y visión general que le permite desenvolverse con soltura en distintos proyectos y contextos.\nTambién destaco especialmente su forma de afrontar situaciones complejas o urgentes. Sabe mantener la calma, analizar los problemas con criterio y transmitir esa tranquilidad al resto del equipo, algo que considero fundamental en cualquier posición de liderazgo.\nY, por supuesto, está su buena onda. Siempre con una sonrisa, predispuesto a conversar, compartir conocimientos y aportar una mirada constructiva. Es de esas personas con las que da gusto trabajar y de las que siempre terminás aprendiendo algo.\nEstoy muy agradecido de haber tenido la oportunidad de trabajar con Nicolás y contar con él en mi equipo. Es un profesional al que recomiendo sin dudarlo, tanto por lo que puede aportar técnicamente como por su capacidad para liderar, acompañar y potenciar a las personas que trabajan con él."
+      }
+    }
+  },
+  "lab": {
+    "label": "Laboratorio",
+    "title": "Arquitecturas agénticas aplicadas a videojuegos",
+    "description": "Fuera del horario laboral diseño frameworks de agentes de IA y los pongo a prueba en el terreno más exigente que conozco: los motores de videojuegos.",
+    "engines": "Motores y herramientas",
+    "links": {
+      "label": "Enlaces",
+      "play": "Jugar en el navegador",
+      "repo": "Ver código",
+      "diagram": "Diagrama interactivo",
+      "kits": "Diagrama de kits"
+    },
+    "framework": {
+      "eyebrow": "Framework open source · Claude Code + Cursor",
+      "name": "godot-studio-skills",
+      "lead": "El chat no hace el juego: lo orquesta.",
+      "description": "Un kit de skills, comandos y subagentes que convierte a Claude Code o Cursor en un pequeño estudio. El orquestador te entrevista, escribe el PRD y las RFC, y delega plan, código, review y playtest en subagentes con roles aislados. El resultado no es un World.gd de mil líneas: es una base pequeña, jugable y clara que una persona u otra IA puede continuar.",
+      "agentsLabel": "Subagentes",
+      "commandsLabel": "Comandos",
+      "addonsLabel": "Addons",
+      "agents": {
+        "techLead": "Tech lead",
+        "developer": "Developer",
+        "reviewer": "Reviewer",
+        "tester": "Tester",
+        "visual": "Visual",
+        "playtester": "Playtester"
+      },
+      "principlesLabel": "Principios",
+      "principles": [
+        "Spec-Driven: PRD, RFC y un árbol de archivos aprobado antes de escribir una línea.",
+        "Elegís la arquitectura que quieras usar, y el framework la respeta de punta a punta.",
+        "Una RFC por vez: plan, build, review y playtest en cada slice.",
+        "Terminado significa verificado: parsea en headless, pasa gdformat y gdlint, y la escena corre."
+      ]
+    },
+    "flow": {
+      "label": "Una feature, de la idea al cierre",
+      "lanes": {
+        "you": "Vos",
+        "orchestrator": "Orquestador",
+        "agents": "Subagentes"
+      },
+      "phases": {
+        "ask": "Preguntar",
+        "plan": "Planificar",
+        "build": "Construir y jugar"
+      },
+      "nodes": {
+        "idea": {
+          "label": "Feature",
+          "detail": "un slice"
+        },
+        "interview": {
+          "label": "Entrevista",
+          "detail": "stack, multijugador, 2D/3D, arte"
+        },
+        "feature": {
+          "label": "F n",
+          "detail": "FEATURES.md"
+        },
+        "lead": {
+          "label": "Tech lead",
+          "detail": "plan + escena de debug"
+        },
+        "ok": {
+          "label": "Un OK",
+          "detail": "árbol de archivos"
+        },
+        "dev": {
+          "label": "Developer",
+          "detail": "producto, kits, debug"
+        },
+        "review": {
+          "label": "Reviewer",
+          "detail": "una pasada"
+        },
+        "play": {
+          "label": "Playtester",
+          "detail": "solo InputMap"
+        },
+        "classify": {
+          "label": "Clasificar",
+          "detail": "el reporte"
+        },
+        "close": {
+          "label": "Cierre",
+          "detail": "F n y memoria"
+        }
+      },
+      "loop": "Si el playtest falla, el orquestador clasifica el reporte y lo devuelve al developer, al reviewer o al playtester. El slice se cierra solo cuando pasa."
+    },
+    "caseStudy": {
+      "eyebrow": "Caso de estudio · Migración de motor",
+      "name": "Sacrifice",
+      "description": "Usé el framework para portar el clásico de estrategia de Shiny Entertainment (2000) a Godot 4 y exportarlo a la web. La migración avanzó feature por feature con SDD: especificación, plan del tech lead, implementación, review y playtest automatizado antes de cerrar cada slice.",
+      "note": "Proyecto fan, sin fines comerciales. Los assets originales pertenecen a sus dueños."
+    },
+    "toolsLabel": "Herramientas del ecosistema",
+    "items": {
+      "studioPlaytest": {
+        "name": "godot-studio-playtest",
+        "category": "Playtesting con IA",
+        "description": "Playtester para agentes: captura el juego real, recorre flujos de UI por CLI y devuelve PASS/FAIL sin contaminar el código del producto."
+      },
+      "relay": {
+        "name": "relay-godot",
+        "category": "Multijugador",
+        "description": "Relay WebSocket en Node para MpKit: permite hostear partidas de Godot sin IP pública ni puertos abiertos, con jugadores web y de escritorio."
+      }
+    }
+  }
+}
