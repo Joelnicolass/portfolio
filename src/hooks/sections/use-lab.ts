@@ -10,6 +10,7 @@ import {
   LAB_REPOS,
   LAB_TOOLS,
 } from "@/constants/content";
+import { FEATURES } from "@/constants/features";
 import { SECTIONS } from "@/constants/sections";
 import { useSectionIndex } from "@/hooks/use-section-label";
 import { padIndex } from "@/lib/utils";
@@ -59,7 +60,7 @@ export function useLab() {
         text,
         index: padIndex(position),
       })),
-      groups: [
+      groups: !FEATURES.labToolkit ? [] : [
         {
           id: "agents",
           label: t("framework.agentsLabel"),
@@ -71,22 +72,26 @@ export function useLab() {
       links: [
         toLink("repo", LAB_REPOS.studioSkills),
         toLink("diagram", ARCHIFY_DIAGRAMS.flow[locale]),
-        toLink("kits", ARCHIFY_DIAGRAMS.kits[locale]),
-        ...LAB_TOOLS.map((tool) => ({
-          type: tool.id,
-          href: tool.links[0].href,
-          label: t(`items.${tool.id as ToolId}.name`),
-        })),
+        ...(!FEATURES.labToolkit
+          ? []
+          : [
+              toLink("kits", ARCHIFY_DIAGRAMS.kits[locale]),
+              ...LAB_TOOLS.map((tool) => ({
+                type: tool.id,
+                href: tool.links[0].href,
+                label: t(`items.${tool.id as ToolId}.name`),
+              })),
+            ]),
       ],
     },
-    flow: {
+    flow: !FEATURES.labAgentFlow ? null : {
       label: t("flow.label"),
       loop: t("flow.loop"),
       lanes,
       phases,
       steps: phases.flatMap((phase) => phase.nodes).sort((a, b) => a.step - b.step),
     },
-    caseStudy: {
+    caseStudy: !FEATURES.labSacrifice ? null : {
       eyebrow: t("caseStudy.eyebrow"),
       name: t("caseStudy.name"),
       description: t("caseStudy.description"),
@@ -95,6 +100,6 @@ export function useLab() {
       tags: CASE_STUDY.tags,
       links: CASE_STUDY.links.map((link) => toLink(link.type, link.href)),
     },
-    engines: { label: t("engines"), items: LAB_ENGINES },
+    engines: !FEATURES.labToolkit ? null : { label: t("engines"), items: LAB_ENGINES },
   };
 }
