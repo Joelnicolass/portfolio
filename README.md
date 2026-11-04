@@ -1,5 +1,7 @@
 # Joel Nicolás Sartori — Portfolio
 
+**Live:** https://joelsartori.vercel.app
+
 Personal portfolio built with **Next.js 16 (App Router)**, **Tailwind CSS v4**, **Motion** (Framer Motion), **Lenis** smooth scroll and **next-intl** (ES / EN).
 
 ```bash
@@ -8,7 +10,7 @@ npm run dev     # http://localhost:3000 → redirects to /es or /en
 npm run build
 ```
 
-Set `NEXT_PUBLIC_SITE_URL` in production so metadata and `hreflang` alternates use the real domain.
+Pushes to `main` deploy automatically on Vercel. `NEXT_PUBLIC_SITE_URL` is set as a production environment variable so metadata and `hreflang` alternates use the real domain.
 
 ## Architecture
 
