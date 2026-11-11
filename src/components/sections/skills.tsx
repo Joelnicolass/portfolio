@@ -17,7 +17,7 @@ export const Skills = () => {
     <Section id={skills.id} className="bg-surface">
       <SectionHeader index={skills.index} label={skills.label} title={skills.title} />
 
-      <div className="grid gap-x-10 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-x-10 gap-y-14 md:grid-cols-2 lg:grid-cols-4">
         {skills.groups.map((group, position) => (
           <FadeIn key={group.id} delay={position * STAGGER.items}>
             <SkillGroup title={group.title} items={group.items} />

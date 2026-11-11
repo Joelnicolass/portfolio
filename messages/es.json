@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Joel Nicolás Sartori — Senior Software Engineer",
-    "description": "Senior Software Engineer, Tech Lead y AI Engineer con más de 8 años construyendo productos mobile y web de alto tráfico para fintech."
+    "title": "Joel Nicolás Sartori — Engineering Manager · Tech Lead",
+    "description": "Engineering Manager y Tech Lead con más de 8 años construyendo productos mobile y web de alto tráfico, principalmente en fintech."
   },
   "common": {
     "present": "Actualidad",
@@ -36,11 +36,11 @@
     "initials": "JNS",
     "firstName": "Joel Nicolás",
     "lastName": "Sartori",
-    "srTitle": "Joel Nicolás Sartori — Senior Software Engineer, Tech Lead & AI Engineer",
+    "srTitle": "Joel Nicolás Sartori — Engineering Manager · Tech Lead",
     "rows": [
-      "Senior Software Engineer",
+      "Engineering Manager",
       "Tech Lead",
-      "AI Engineer"
+      "AI Champion"
     ],
     "location": "Posadas, Argentina",
     "remote": "Remoto",
@@ -51,14 +51,14 @@
     "label": "Sobre mí",
     "statement": "Convierto problemas complejos en productos que usan millones de personas. Combino arquitectura, calidad y liderazgo con algo poco común en ingeniería: una formación en Psicología.",
     "paragraphs": [
-      "Hoy trabajo en itti, en el equipo Mobile Core, construyendo los productos financieros y comerciales del grupo. Como AI Champion también llevo la IA al día a día de los equipos de desarrollo, con agentes y sin resignar calidad.",
-      "Me obsesiona que los equipos entreguen lo que prometen. Por eso trabajo con especificaciones primero, tests como parte del diseño y flujos de agentes estandarizados, para que la velocidad que suma la IA no se pague con deuda técnica.",
-      "Esa formación me permite liderar con una mirada centrada en las personas: entrevistas técnicas, mentoría y acompañar a otros desarrolladores en su crecimiento, algo que también hice como docente Full Stack."
+      "En itti soy Tech Lead y Engineering Manager de growth de la división de apps: llevo equipos y productos del concepto a producción. Como AI Champion también llevo la IA al día a día de los equipos de desarrollo, con agentes y sin resignar calidad.",
+      "Me obsesiona que los equipos entreguen lo que prometen. Por eso cada iniciativa parte de un PRD y un RFC, con tests como red de seguridad y flujos de agentes estandarizados, para que la velocidad que suma la IA no se pague con deuda técnica.",
+      "Esa formación me permite liderar con una mirada centrada en las personas: entrevistas técnicas, mentoría y planes de desarrollo profesional para acompañar a otros desarrolladores en su crecimiento, algo que también hice como docente Full Stack."
     ],
     "facts": {
       "focus": {
         "label": "Foco",
-        "value": "Mobile · Frontend · IA"
+        "value": "Liderazgo · Growth · Mobile"
       },
       "industry": {
         "label": "Industria",
@@ -92,17 +92,17 @@
       "umarket": {
         "name": "umarket",
         "category": "Marketplace",
-        "description": "E-commerce del ecosistema bancario desarrollado desde cero, con alto flujo de usuarios y arquitectura de micro-frontends."
+        "description": "Marketplace del ecosistema bancario que acompañé del concepto al lanzamiento: micro-frontends, app híbrida nativa y web con Expo, SSO, EventBus y un BFF en Express. Como responsable de growth integré Algolia para search y discovery: búsqueda híbrida léxica y vectorial, facetas y search-as-you-type."
       },
       "uttoki": {
         "name": "Uttoki",
         "category": "Criptomonedas",
-        "description": "Desarrollo, refactorización y definición arquitectónica: micro-apps desacopladas con runners aislados y compilación independiente, más el ciclo completo de publicación."
+        "description": "Definí la arquitectura de la app de criptomonedas: micro-apps desacopladas con runners aislados, compilación independiente y BFFs."
       },
       "tuiu": {
         "name": "Tuiu",
         "category": "Remesas",
-        "description": "Coordinación del equipo, refactorización profunda y rediseño, integración de proveedores externos y una capa de observabilidad y telemetría en tiempo real con trazabilidad de punta a punta."
+        "description": "Coordiné el rediseño de la plataforma de remesas internacionales en Next.js (App Router), habilité el pago con QR de distintos proveedores en un checkout unificado y diseñé la observabilidad sobre server actions y API routes."
       },
       "fifa": {
         "name": "Mundial FIFA 2026",
@@ -132,15 +132,15 @@
       "itti": {
         "company": "itti",
         "location": "Paraguay · Remoto",
-        "summary": "Productos de alto tráfico para el ecosistema financiero y comercial de Paraguay. Equipo Mobile Core; coordino equipos de 2 a 5 personas según el proyecto.",
+        "summary": "Productos de alto tráfico para el ecosistema financiero y comercial de Paraguay. División de apps; equipos de 2 a 5 personas según el proyecto.",
         "roles": {
-          "aiEngineer": "AI Engineer · Senior Software Engineer",
-          "senior": "Senior Software Engineer"
+          "manager": "Engineering Manager · Tech Lead — Growth, Mobile"
         },
         "highlights": [
-          "Definí arquitecturas de micro-apps desacopladas y micro-frontends, con BFFs para la orquestación de datos.",
-          "Instalé estándares de calidad y seguridad con SonarQube y Checkmarx, y una cultura de testing en todos los proyectos.",
-          "Como AI Champion estandaricé flujos con agentes, Spec-Driven Development y TDD, y los equipos pasaron a cumplir sus estimaciones."
+          "Coordino equipos de 2 a 5 personas y llevo a producción los productos de alto tráfico del grupo, del concepto al lanzamiento.",
+          "Defino el estándar técnico del equipo: cobertura de tests con SonarQube y Checkmarx, y observabilidad con New Relic y Sentry.",
+          "Como AI Champion lidero la adopción de agentes de IA y un flujo de Spec-Driven Development en el que cada iniciativa parte de un PRD y un RFC, con TDD como red de seguridad.",
+          "Trabajo de forma transversal con producto y negocio, y creé los backoffice en Next.js y TypeScript para las gestiones internas de Tuiu, Umarket y Uttoki."
         ]
       },
       "ppi": {
@@ -157,14 +157,13 @@
         "location": "Remoto",
         "summary": "Software factory con proyectos web y mobile para clientes nacionales e internacionales.",
         "roles": {
-          "lead": "Tech Lead Frontend · Sr. Frontend & Mobile Developer",
-          "engineer": "Software Engineer · Frontend Developer"
+          "lead": "Tech Lead Frontend · Sr. Frontend & Mobile Engineer",
+          "engineer": "Software Engineer · Frontend Engineer"
         },
         "highlights": [
-          "Lideré equipos de Frontend de 2 a 5 personas en una plataforma Angular de contratos virtuales con TDD, roles y pasarelas de pago.",
-          "Desarrollé una app React Native y web de tickets virtuales con i18n, push y biometría, publicada en App Store y Google Play.",
-          "Publiqué apps Flutter con APIs Node.js sobre AWS e implementé CI/CD, Docker y AWS Lambda.",
-          "Dicté talleres internos de arquitectura limpia en frontend, TDD e integración continua."
+          "Como Tech Lead de Frontend lideré equipos de 2 a 5 personas y los eventos de Scrum en una plataforma Angular de contratos virtuales con TDD, autenticación, roles y pasarelas de pago.",
+          "Acompañé al equipo con mentoría y talleres internos de arquitectura limpia en frontend, TDD e integración continua, y definí estándares de entrega (CI/CD, Docker, AWS Lambda).",
+          "Llevé a producción apps React Native y Flutter, productos Angular de cobranza y cheques virtuales integrados a CRM, y una librería interna de componentes."
         ]
       },
       "xside": {
@@ -172,7 +171,7 @@
         "location": "Remoto",
         "summary": "Producto internacional mobile y web.",
         "roles": {
-          "ssr": "SSr Frontend & Mobile Developer"
+          "engineer": "Frontend Engineer · Mobile Engineer"
         },
         "highlights": [
           "Mantuve y optimicé una app React Native internacional con push y módulos nativos en Swift y Java.",
@@ -184,7 +183,7 @@
         "location": "Posadas, Misiones · Presencial",
         "summary": "Soluciones IoT para movilidad e industria.",
         "roles": {
-          "fullstack": "Full-stack & Mobile Developer"
+          "fullstack": "Full-stack & Mobile Engineer"
         },
         "highlights": [
           "Alquiler de autos con seguimiento en tiempo real: Flutter, BLoC, BLE y MercadoPago.",
@@ -196,7 +195,7 @@
         "location": "Posadas, Misiones · Freelance",
         "summary": "Experiencias digitales para arquitectura.",
         "roles": {
-          "fullstack": "Full-stack Developer"
+          "fullstack": "Full-stack Engineer"
         },
         "highlights": [
           "Desarrollé tours y experiencias virtuales 3D y sitios web con React, Node.js y WordPress."
@@ -210,37 +209,41 @@
     "label": "Capacidades",
     "title": "Stack y formación",
     "groups": {
+      "leadership": "Liderazgo",
+      "ai": "IA y metodología",
       "mobile": "Mobile",
       "frontend": "Frontend",
-      "ai": "IA aplicada",
-      "backend": "Backend y Cloud",
-      "architecture": "Arquitectura y calidad",
-      "leadership": "Liderazgo"
+      "backend": "Backend",
+      "cloud": "Cloud e infraestructura",
+      "architecture": "Arquitectura",
+      "quality": "Calidad y observabilidad"
     },
     "extra": {
-      "mobile": [
-        "Módulos nativos",
-        "Publicación en stores"
-      ],
-      "frontend": [
-        "JavaScript"
-      ],
-      "ai": [
-        "Agentes de IA",
-        "Arquitecturas agénticas",
-        "Adopción de IA en equipos"
-      ],
-      "backend": [
-        "API REST",
-        "CI/CD"
-      ],
-      "architecture": [],
       "leadership": [
         "Liderazgo técnico",
         "Gestión de equipos",
         "Mentoría",
-        "Entrevistas técnicas"
-      ]
+        "Entrevistas técnicas",
+        "Planes de desarrollo profesional"
+      ],
+      "ai": [
+        "Arquitectura de agentes",
+        "Agentes de IA",
+        "Adopción de IA en equipos"
+      ],
+      "mobile": [
+        "WebView híbrido",
+        "Módulos nativos",
+        "Publicación en stores"
+      ],
+      "frontend": [
+        "Búsqueda híbrida (léxica y vectorial)",
+        "Facetas"
+      ],
+      "backend": [],
+      "cloud": [],
+      "architecture": [],
+      "quality": []
     }
   },
   "education": {
@@ -265,7 +268,7 @@
     },
     "teaching": {
       "gcba": {
-        "title": "Full Stack Teacher (MERN)",
+        "title": "Full Stack Teacher in MERN stack",
         "institution": "Gobierno de la Ciudad de Buenos Aires",
         "description": "Formación de desarrolladores full stack (MERN) en el programa público de la Ciudad."
       },
@@ -298,7 +301,7 @@
     "label": "Contacto",
     "title": "¿Construimos",
     "titleAccent": "algo grande?",
-    "description": "Busco nuevos desafíos como Senior Software Engineer, Tech Lead o AI Engineer en remoto. Si tu equipo construye productos de alto impacto, hablemos.",
+    "description": "Busco nuevos desafíos como Engineering Manager o Tech Lead en remoto. Si tu equipo construye productos de alto impacto, hablemos.",
     "copy": "Copiar email",
     "copied": "Email copiado",
     "socials": "Encontrame en",

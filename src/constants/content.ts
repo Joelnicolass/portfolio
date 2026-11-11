@@ -50,7 +50,7 @@ export const PROJECTS = [
     id: "umarket",
     company: "itti",
     period: { start: "2025", end: "2026" },
-    tags: ["React Native", "React", "Next.js", "Go", "NullPlatform"],
+    tags: ["Next.js", "React Native", "Expo", "Algolia", "Micro-frontends", "BFF"],
     links: [
       { type: "web", href: "https://umarket.com.py/" },
       { type: "appStore", href: "https://apps.apple.com/py/app/umarket/id6756619340" },
@@ -60,14 +60,14 @@ export const PROJECTS = [
     id: "uttoki",
     company: "itti",
     period: { start: "2025", end: "2026" },
-    tags: ["Flutter", "Java", "Go", "NestJS", "Node.js", "NullPlatform"],
+    tags: ["Flutter", "Micro-apps", "BFF", "Go", "NestJS"],
     links: [],
   },
   {
     id: "tuiu",
     company: "itti",
     period: { start: "2025", end: "2026" },
-    tags: ["Next.js", "Java", "NestJS", "NullPlatform", "New Relic", "Amplitude"],
+    tags: ["Next.js", "App Router", "QR payments", "New Relic", "Sentry"],
     links: [],
   },
   {
@@ -191,12 +191,10 @@ export const EXPERIENCE = [
     id: "itti",
     start: "2025-08",
     end: null,
-    roles: [
-      { id: "aiEngineer", start: "2026-07", end: null },
-      { id: "senior", start: "2025-08", end: "2026-07" },
-    ],
+    roles: [{ id: "manager", start: "2025-08", end: null }],
     tech: [
       "React Native",
+      "Expo",
       "Flutter",
       "Next.js",
       "TypeScript",
@@ -206,11 +204,12 @@ export const EXPERIENCE = [
       "Micro-frontends",
       "BFF",
       "Kong",
+      "Algolia",
       "New Relic",
+      "Sentry",
       "Amplitude",
       "SonarQube",
       "Checkmarx",
-      "Python",
     ],
   },
   {
@@ -246,7 +245,7 @@ export const EXPERIENCE = [
     id: "xside",
     start: "2023-02",
     end: "2023-07",
-    roles: [{ id: "ssr", start: "2023-02", end: "2023-07" }],
+    roles: [{ id: "engineer", start: "2023-02", end: "2023-07" }],
     tech: ["React Native", "React", "Cypress", "Swift"],
   },
   {
@@ -268,13 +267,17 @@ export const EXPERIENCE = [
 export const DEFAULT_OPEN_EXPERIENCE = EXPERIENCE[0].id;
 
 export const SKILL_GROUPS = [
+  { id: "leadership", items: ["Growth", "Scrum", "Kanban"] },
+  { id: "ai", items: ["SDD", "PRD", "RFC", "TDD", "Cursor", "Python"] },
   {
     id: "mobile",
     items: [
       "React Native",
       "Expo",
-      "EAS",
+      "EAS Build & Submit",
+      "EAS Update",
       "Expo Router",
+      "React Navigation",
       "Reanimated",
       "Flutter",
       "Dart",
@@ -286,41 +289,43 @@ export const SKILL_GROUPS = [
     id: "frontend",
     items: [
       "TypeScript",
+      "JavaScript",
       "React",
-      "Next.js",
+      "Next.js (App Router)",
       "Angular",
       "Redux Toolkit",
       "Zustand",
       "TanStack Query",
       "Micro-frontends",
+      "Algolia",
     ],
   },
-  { id: "ai", items: ["SDD", "Cursor", "Python"] },
   {
     id: "backend",
-    items: ["Node.js", "NestJS", "Express", "Go", "Java", "BFF", "MongoDB", "SQL", "AWS", "Docker", "Kong"],
+    items: ["Node.js", "NestJS", "Express", "Go", "Java", "BFF", "API REST", "MongoDB", "SQL", "Redis"],
+  },
+  {
+    id: "cloud",
+    items: ["AWS (S3, EC2, Lambda)", "Cloudflare CDN", "Cloudflare R2", "Docker", "CI/CD", "Kong"],
   },
   {
     id: "architecture",
+    items: ["Clean Architecture", "Hexagonal", "Vertical Slice", "DDD", "MVVM", "VIPER", "BLoC", "Micro-apps", "EventBus"],
+  },
+  {
+    id: "quality",
     items: [
-      "Clean",
-      "Hexagonal",
-      "Vertical Slice",
-      "DDD",
-      "MVVM",
-      "VIPER",
-      "BLoC",
-      "Micro-apps",
-      "TDD",
       "Jest",
       "React Native Testing Library",
       "Cypress",
+      "Playwright",
       "SonarQube",
       "Checkmarx",
       "New Relic",
+      "Sentry",
+      "Amplitude",
     ],
   },
-  { id: "leadership", items: ["Scrum", "Kanban"] },
 ] as const;
 
 export const MARQUEE_ITEMS = [
